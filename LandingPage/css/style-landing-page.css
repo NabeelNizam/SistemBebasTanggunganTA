@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow: visible;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  /* IE and Edge */
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+/* Navbar */
+
+.navbar{
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3%;
+    background-color: #ffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+}
+
+.logo{
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.si{
+    color: #0F1F43;
+}
+.minus{
+    color: #F05529;
+}
+.beta{
+    color: #FEBF10;
+}
+
+.logo-polinema,
+.logo-jti {
+    max-width: 28px;
+    width: 100%;
+    height: auto;
+}
+
+.logo-jti{
+    margin-left: 1rem;
+}
+
+.right {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.right a {
+    margin-right: 2rem;
+    padding-left: 1.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.garis-lurus{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-height: 28px;
+    width: auto;
+}
+.akun{
+    margin-left: 1rem; 
+}
+
+/* hero-1*/
+.hero-1 {
+    position: relative;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/LandingPage/img/topography.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.konten-1 {
+    margin-top: 30px;
+    margin-left: 135px;
+    width: 48%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+}
+
+.text h2{
+    margin-top: 2px;
+    font-size: 40px;
+}
+.hero-1 img{
+    margin-top: 119px;
+    margin-right: 135px;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.row-2{
+    height: auto;
+    width: 909px;
+    color: #FEBF10;
+}
+.poltek{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background-color: #F05529;
+    width: 250px;
+    border-radius: 23px;
+    padding: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.konten-1 .poltek{
+    font-size: 17px;
+}
+.konten-1 p{
+    width: 460px;
+    height: auto;
+}
+
+.tombol-masuk{
+    margin-top: 50px;
+    background-color: #0f1f43;
+    border-radius: 23px;
+    padding: 5px;
+    width: 150px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+    /* Halaman 2 */
+.hero-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #0F1F43;   
+    color: #FFFFFF;
+    height: 100vh;
+    padding: 40px;
+    margin-top: -50px;
+    background-image: url(/LandingPage/img/Rectangle\ 588.svg);
+}
+
+
+.judul {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 128px auto;
+    margin-bottom: 30px; 
+    border-radius: 40px;
+    background-color: #FEBF10;
+    width: 1100px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1100px; 
+    margin: 0 auto; 
+    gap: 20px; 
+}
+
+.card {
+    background-color: #FFFFFF; 
+    color: #0F1F43; 
+    width: 300px; 
+    padding: 40px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.card img {
+    width: 40px; 
+    margin-bottom: 15px; 
+}
+
+.card h2 {
+    font-size: 1.2em; 
+    color: #0F1F43; 
+    margin: 10px 0; 
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 0.9em; 
+    color: #333333;
+}
+
+
+
+/* Halaman 3 */
+
+.hero-3 {
+    margin-top: 20px;
+    position: relative;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/LandingPage/img/topography.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+  .konten-3 {
+    width: 48%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .hero-3 img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 2rem; 
+  }
+  
+  .hero-3 h2 {
+    margin-bottom: 1rem; 
+  }
+  
+  .qna-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .question {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .qna-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.question {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.question:hover {
+    background-color: #e5e5e5;
+}
+
+.question i {
+    rotate: 270deg;
+    font-size: 0.7em;
+    transition: transform 0.3s ease;
+}
+
+.question.active i {
+    transform: rotate(180deg);
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    opacity: 0;
+}
+
+.answer.active {
+    max-height: 500px; /* Sesuaikan dengan tinggi maksimum jawaban */
+    opacity: 1;
+}
+
+
+.answer p {
+    padding: 10px;
+    margin: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.float-element {
+    padding: 0 10px;
+    text-align: center;
+    display: flex; /* Aktifkan Flexbox */
+    align-items: center; /* Pusatkan secara vertikal */
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    flex-direction: row; /* Atur elemen dalam satu baris */
+    gap: 20px; /* Jarak antar elemen */
+    width: 100%;
+    height: 70px;
+    background-color: #FEBF10;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    max-width: 1220px;
+}
+
+.float-element p {
+    margin: 0; 
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.float-element a {
+    background-color: #0F1F43;
+    border-radius: 40px;
+    color: #FFFFFF;
+    padding: 10px 20px; 
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+
+
+/* Halaman 4 */
+.hero-4 {
+    max-width: 100vw;
+    min-height: 100vh;
+    color: #FFFFFF;
+    background-color: #0F1F43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.konten-4 {
+    display: flex;
+    gap: 80px;
+    margin: 0 auto;
+    max-width: 1454px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    min-height: 508px;
+    gap: 30px;
+}
+
+.image {
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 40px;
+    background-color: #ffff;
+    width: 384px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image img {
+    padding: 3px;
+    height: auto;
+    width: auto;
+}
+
+.text {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.sosmed {
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sosmed h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.sosmed-img {
+    display: flex;
+    gap: 24px; /* Jarak antar icon sosial media */
+}
+.sosmed-img img {
+    width: 55px;
+    height: auto;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 131px; 
+    min-height: 508px;
+}
+
+.r-row-1 {
+    display: flex;
+    gap: 109px;
+    margin-top: 10px; 
+}
+
+.r-row-2 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.kontenke-1, .kontenke-2, .kontenke-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.kontenke-1 h2, .kontenke-2 h2, .kontenke-3 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.kontenke-1 p, .kontenke-2 p, .kontenke-3 p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: #504F4F; /* Warna teks */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/LandingPage/img/topography.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer p {
+    margin: 5px 0; /* Jarak antar paragraf */
+}
+
+.mini-konten {
+    display: flex; /* Membuat elemen di dalamnya berjajar */
+    justify-content: center; /* Memusatkan elemen secara horizontal */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+    gap: 10px; /* Jarak antar elemen */
+    margin-top: 10px; /* Jarak antara mini-konten dan teks di atasnya */
+}
+
+.mini-konten p {
+    margin: 0; /* Hapus margin default */
+    font-size: 14px; /* Sesuaikan ukuran teks */
+}
+
+.mini-konten img {
+    height: 16px; /* Sesuaikan tinggi garis */
+    width: auto; /* Memastikan proporsi gambar tetap */
+}
+
