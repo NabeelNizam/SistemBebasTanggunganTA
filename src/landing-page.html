@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/LandingPage/css/style-landing-page.css">
+    <link rel="stylesheet" href="/src/style/style-landing-page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/src/js/faq.js"></script>
     <title>SI-BETA</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <img src="/LandingPage/img/lambang-polinema1 1.svg" alt="Lambang Polinema" class="logo-polinema">
-            <img src="/LandingPage/img/Jti_polinema.svg 1.svg" alt="Lambang Jurusan Teknologi Informasi" class="logo-jti">
+            <img src="/Public/img/lambang-polinema1 1.svg" alt="Lambang Polinema" class="logo-polinema">
+            <img src="/Public/img/Jti_polinema.svg 1.svg" alt="Lambang Jurusan Teknologi Informasi" class="logo-jti">
             <a href="#" class="logo">
                 <span class="si">SI</span> 
                 <span class="minus">-</span> 
@@ -25,10 +26,10 @@
                 <a href="#fitur">Fitur</a>
                 <a href="#faq">FAQ</a>
                 <a href="#tentang-kami">Tentang Kami</a>
-                <img src="/LandingPage/img/Vector 20.svg" alt="garis-lurus" class="garis-lurus">
+                <img src="/Public/img/GarisLurus.svg" alt="garis-lurus" class="garis-lurus">
                 <div class="akun">
-                    <a href="">Daftar</a>
-                    <a href="">Masuk</a>
+                    <a href="/src/login.html">Daftar</a>
+                    <a href="/Auth/Register/html/register.html">Masuk</a>
                 </div>
             </div>
         </nav>
@@ -41,21 +42,21 @@
            </div>
             <h2 class="poltek">Politeknik Negeri Malang</h2>
             <p>Sistem Informasi Bebas Tanggungan Tugas Akhir adalah platform digital yang memudahkan mahasiswa Politeknik Negeri Malang dalam mengurus persyaratan kelulusan terkait bebas tanggungan akademik dan administrasi secara online.</p>
-            <a href="" class="tombol-masuk">Masuk <i class="fa-solid fa-chevron-right" style="font-size: 0.7em;"></i></a>
+            <a href="/src/login.html" class="tombol-masuk">Masuk <i class="fa-solid fa-chevron-right" style="font-size: 0.7em;"></i></a>
         </div>
-        <img src="/LandingPage/img/Group.svg" alt="">
+        <img src="/Public/img/GedungSipil.svg" alt="">
     </section>
-    <img src="/LandingPage/img/wave.svg" alt="">
+    <img src="/Public/img/wave.svg" alt="">
 <section class="hero-2" id="fitur">
     <h2 class="judul">Fitur Utama</h2>
     <div class="card-container">
         <div class="card">
-            <img src="/LandingPage/img/fluent-mdl2_join-online-meeting.svg" alt="">
+            <img src="/Public/img/fluent-mdl2_join-online-meeting.svg" alt="">
             <h2>Pengajuan dan Upload Online</h2>
             <p>Mahasiswa dapat mengajukan bebas tanggungan dan mengunggah dokumen persyaratan secara online dengan mudah.</p>
         </div>
         <div class="card">
-            <img src="/LandingPage/img/mingcute_time-duration-line.svg" alt="">
+            <img src="/Public/img/mingcute_time-duration-line.svg" alt="">
             <h2>Pemantauan Status Pengajuan Real-Time</h2>
             <p>Memantau status pengajuan secara langsung dan mendapatkan notifikasi pembaruan secara otomatis.</p>
         </div>
@@ -68,7 +69,7 @@
 </section>
 <section class="hero-3" id="faq">
   <div class="content-wrapper">
-    <img src="/LandingPage/img/Frame.svg" alt="">
+    <img src="/Public/img/Frame.svg" alt="">
   <div class="konten-3">
     <h2>Pertanyaan Seputar</h2>
     <h2>Bebas Tanggungan TA</h2>
@@ -115,7 +116,6 @@
     <a href="">Email Pusat Bantuan</a>
   </div>
   </div>
-  
 </section>
 
 
@@ -123,8 +123,8 @@
     <div class="konten-4">
       <div class="left">
         <div class="image">
-          <img src="/LandingPage/img/lambang-polinema1 1.svg" alt="">
-          <img src="/LandingPage/img/Jti_polinema.svg 1.svg" alt="">
+          <img src="/Public/img/lambang-polinema1 1.svg" alt="">
+          <img src="/Public/img/Jti_polinema.svg 1.svg" alt="">
           <a href="#" class="logo">
             <span class="si">SI</span> 
             <span class="minus">-</span> 
@@ -141,14 +141,14 @@
         <div class="sosmed">
           <h2>Media Sosial</h2>
           <div class="sosmed-img">
-            <img src="/LandingPage/img/skill-icons_instagram.svg" alt="">
-            <img src="/LandingPage/img/logos_facebook.svg" alt="">
-            <img src="/LandingPage/img/logos_twitter.svg" alt="">
-            <img src="/LandingPage/img/logos_youtube-icon.svg" alt="">
+            <img src="/Public/img/skill-icons_instagram.svg" alt="">
+            <img src="/Public/img/logos_facebook.svg" alt="">
+            <img src="/Public/img/logos_twitter.svg" alt="">
+            <img src="/Public/img/logos_youtube-icon.svg" alt="">
           </div>
         </div>
       </div>
-      <img src="/LandingPage/img/Line 2.svg" alt="" class="vertical-row">
+      <img src="/Public/img/Line 2.svg" alt="" class="vertical-row">
       <div class="footer-right">
         <div class="r-row-1">
           <div class="kontenke-1">
@@ -178,12 +178,11 @@
     <p><i class="fa-regular fa-copyright"></i> 2024 Kelompok 2. All rights reserved.</p>
     <div class="mini-konten">
       <p>Kebijakan Privasi</p>
-      <img src="/LandingPage/img/Line 3.svg" alt="">
+      <img src="/Public/img/Line 3.svg" alt="">
       <p>Syarat & Ketentuan</p>
-      <img src="/LandingPage/img/Line 3.svg" alt="">
+      <img src="/Public/img/Line 3.svg" alt="">
       <p>Versi 1.0.0</p>
     </div>
   </footer>
-  <script src="/LandingPage/js/faq.js" defer></script> 
 </body>
 </html>

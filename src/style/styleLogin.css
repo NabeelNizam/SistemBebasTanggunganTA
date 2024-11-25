@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow: visible;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  /* IE and Edge */
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+/* Navbar */
+
+.navbar{
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3%;
+    background-color: #ffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+}
+
+.logo{
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.si{
+    color: #0F1F43;
+}
+.minus{
+    color: #F05529;
+}
+.beta{
+    color: #FEBF10;
+}
+
+.logo-polinema,
+.logo-jti {
+    max-width: 28px;
+    width: 100%;
+    height: auto;
+}
+
+.logo-jti{
+    margin-left: 1rem;
+}
+
+.right {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.right a {
+    margin-right: 2rem;
+    padding-left: 1.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.garis-lurus{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-height: 28px;
+    width: auto;
+}
+.akun{
+    margin-left: 1rem; 
+}
+
+/* Hero */
+.hero{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/Public/img/topography.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

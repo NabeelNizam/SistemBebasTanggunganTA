@@ -111,7 +111,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/LandingPage/img/topography.svg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/Public/img/topography.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ body{
     height: 100vh;
     padding: 40px;
     margin-top: -50px;
-    background-image: url(/LandingPage/img/Rectangle\ 588.svg);
+    background-image: url(/Public/img/Rectangle\ 588.svg);
 }
 
 
@@ -257,7 +257,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/LandingPage/img/topography.svg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/Public/img/topography.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -465,7 +465,7 @@ body{
 
 .sosmed-img {
     display: flex;
-    gap: 24px; /* Jarak antar icon sosial media */
+    gap: 24px; 
 }
 .sosmed-img img {
     width: 55px;
@@ -515,31 +515,31 @@ body{
     flex-direction: column;
     padding: 20px;
     color: #504F4F; /* Warna teks */
-    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/LandingPage/img/topography.svg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/Public/img/topography.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .footer p {
-    margin: 5px 0; /* Jarak antar paragraf */
+    margin: 5px 0; 
 }
 
 .mini-konten {
-    display: flex; /* Membuat elemen di dalamnya berjajar */
-    justify-content: center; /* Memusatkan elemen secara horizontal */
-    align-items: center; /* Memusatkan elemen secara vertikal */
-    gap: 10px; /* Jarak antar elemen */
-    margin-top: 10px; /* Jarak antara mini-konten dan teks di atasnya */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 10px; 
 }
 
 .mini-konten p {
-    margin: 0; /* Hapus margin default */
-    font-size: 14px; /* Sesuaikan ukuran teks */
+    margin: 0; 
+    font-size: 14px; 
 }
 
 .mini-konten img {
-    height: 16px; /* Sesuaikan tinggi garis */
-    width: auto; /* Memastikan proporsi gambar tetap */
+    height: 16px; 
+    width: auto; 
 }
 
