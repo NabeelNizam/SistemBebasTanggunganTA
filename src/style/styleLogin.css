@@ -103,10 +103,27 @@ body{
     margin-left: 1rem; 
 }
 
-/* Hero */
-.hero{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url(/Public/img/topography.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+/* .navbar a.masuk {
+
+} */
+
+.navbar a.daftar {
+    font-size: 0.8rem;
+    color: #333;
+    font-weight: 500;
+    background-color: transparent; /* Awalnya transparan */
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 2px solid transparent; /* Border awal transparan */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+    transform: scale(1); /* Skala awal */
+}
+
+.navbar a.daftar:hover {
+    color: #fff; /* Warna teks saat hover */
+    background-color: #2a1a46; /* Warna background saat hover */
+    border-color: #2a1a46; /* Border saat hover */
+    transform: scale(1.1); /* Perbesar sedikit saat hover */
 }
